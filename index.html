@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alness - Highland Heritage</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/api/placeholder/1200/400');
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        nav {
+            background: #2c5282;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .image-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #2c5282;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alness</h1>
+        <p>A Highland Town Rich in History</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#industrial">Industrial Heritage</a></li>
+            <li><a href="#modern">Modern Alness</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="history" class="section">
+            <h2>Early History</h2>
+            <p>Alness, situated in Easter Ross, Scotland, has a rich history dating back to medieval times. The name Alness is derived from the River Averon (also known as River Alness), which flows through the town. The parish church of Alness was first recorded in the 13th century, indicating the establishment of an early settlement in the area.</p>
+            
+            <div class="image-container">
+                <img src="/api/placeholder/600/400" alt="Historic Alness" />
+            </div>
+        </section>
+
+        <section id="industrial" class="section">
+            <h2>Industrial Heritage</h2>
+            <p>During World War II, Alness played a significant role as a major Royal Air Force training base. The Alness Bay area was used for flying boat operations, and the town saw rapid development during this period. The nearby Invergordon distillery, established in 1959, became an important part of the local economy.</p>
+            
+            <div class="image-container">
+                <img src="/api/placeholder/600/400" alt="Industrial Alness" />
+            </div>
+        </section>
+
+        <section id="modern" class="section">
+            <h2>Modern Alness</h2>
+            <p>Today, Alness is a vibrant community known for its beautiful floral displays, having won multiple Britain in Bloom awards. The town continues to preserve its heritage while embracing modern development. The High Street remains the heart of the community, featuring local businesses and regular community events.</p>
+            
+            <div class="image-container">
+                <img src="/api/placeholder/600/400" alt="Modern Alness" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Alness Historical Society</p>
+    </footer>
+</body>
+</html>
